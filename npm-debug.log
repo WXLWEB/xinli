@@ -1,0 +1,123 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-uglify',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json mailexiu1@1.0.0 No description
+5 warn package.json mailexiu1@1.0.0 No repository field.
+6 warn package.json mailexiu1@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt-contrib-uglify', null ]
+9 verbose cache add name=undefined spec="grunt-contrib-uglify" args=["grunt-contrib-uglify",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt-contrib-uglify',
+10 verbose parsed url   path: 'grunt-contrib-uglify',
+10 verbose parsed url   href: 'grunt-contrib-uglify' }
+11 silly lockFile 9dabf0fb-grunt-contrib-uglify grunt-contrib-uglify
+12 verbose lock grunt-contrib-uglify /Users/pursuer/.npm/9dabf0fb-grunt-contrib-uglify.lock
+13 silly lockFile 9dabf0fb-grunt-contrib-uglify grunt-contrib-uglify
+14 silly lockFile 9dabf0fb-grunt-contrib-uglify grunt-contrib-uglify
+15 verbose addNamed [ 'grunt-contrib-uglify', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 1f4692e4-grunt-contrib-uglify grunt-contrib-uglify@
+18 verbose lock grunt-contrib-uglify@ /Users/pursuer/.npm/1f4692e4-grunt-contrib-uglify.lock
+19 silly addNameRange { name: 'grunt-contrib-uglify', range: '*', hasData: false }
+20 verbose request where is /grunt-contrib-uglify
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id aeac3e2e3ffc6146
+23 verbose url raw /grunt-contrib-uglify
+24 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+25 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+26 verbose request where is https://registry.npmjs.org/grunt-contrib-uglify
+27 info trying registry request attempt 1 at 10:04:37
+28 verbose etag "CNCV8K2ACV75IRYJCIETL4O3E"
+29 http GET https://registry.npmjs.org/grunt-contrib-uglify
+30 http 200 https://registry.npmjs.org/grunt-contrib-uglify
+31 silly registry.get cb [ 200,
+31 silly registry.get   { date: 'Tue, 06 Jan 2015 02:04:38 GMT',
+31 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     etag: '"1XM55RI59L7G9DTQN66N8WH3W"',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=60',
+31 silly registry.get     'content-length': '55896',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '1',
+31 silly registry.get     'x-timer': 'S1420509878.378922,VS0,VE168',
+31 silly registry.get     vary: 'Accept',
+31 silly registry.get     'keep-alive': 'timeout=10, max=50',
+31 silly registry.get     connection: 'Keep-Alive' } ]
+32 silly addNameRange number 2 { name: 'grunt-contrib-uglify', range: '*', hasData: true }
+33 silly addNameRange versions [ 'grunt-contrib-uglify',
+33 silly addNameRange   [ '0.1.0',
+33 silly addNameRange     '0.1.1',
+33 silly addNameRange     '0.1.2',
+33 silly addNameRange     '0.2.0',
+33 silly addNameRange     '0.2.1',
+33 silly addNameRange     '0.2.2',
+33 silly addNameRange     '0.2.3',
+33 silly addNameRange     '0.2.4',
+33 silly addNameRange     '0.2.5',
+33 silly addNameRange     '0.2.6',
+33 silly addNameRange     '0.2.7',
+33 silly addNameRange     '0.3.0',
+33 silly addNameRange     '0.3.1',
+33 silly addNameRange     '0.1.1-rc5',
+33 silly addNameRange     '0.1.1-rc6',
+33 silly addNameRange     '0.3.2',
+33 silly addNameRange     '0.3.3',
+33 silly addNameRange     '0.4.0',
+33 silly addNameRange     '0.5.0',
+33 silly addNameRange     '0.4.1',
+33 silly addNameRange     '0.5.1',
+33 silly addNameRange     '0.6.0',
+33 silly addNameRange     '0.7.0' ] ]
+34 verbose addNamed [ 'grunt-contrib-uglify', '0.7.0' ]
+35 verbose addNamed [ '0.7.0', '0.7.0' ]
+36 silly lockFile 0707808c-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@0.7.0
+37 verbose lock grunt-contrib-uglify@0.7.0 /Users/pursuer/.npm/0707808c-grunt-contrib-uglify-0-7-0.lock
+38 silly lockFile 263c708a-y-grunt-contrib-uglify-0-7-0-tgz https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+39 verbose lock https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz /Users/pursuer/.npm/263c708a-y-grunt-contrib-uglify-0-7-0-tgz.lock
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz',
+40 verbose addRemoteTarball   '79dde81a62cec6ffa35b47a32833706744f8e787' ]
+41 info retry fetch attempt 1 at 10:04:39
+42 verbose fetch to= /var/folders/7j/2qs83w8x6pvckzmd156nfnwr0000gn/T/npm-661-59FTdFdT/registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+43 http GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+44 http 200 https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+45 silly lockFile 263c708a-y-grunt-contrib-uglify-0-7-0-tgz https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+46 silly lockFile 263c708a-y-grunt-contrib-uglify-0-7-0-tgz https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+47 silly lockFile 0707808c-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@0.7.0
+48 silly lockFile 0707808c-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@0.7.0
+49 silly lockFile 1f4692e4-grunt-contrib-uglify grunt-contrib-uglify@
+50 silly lockFile 1f4692e4-grunt-contrib-uglify grunt-contrib-uglify@
+51 error Error: EACCES, mkdir '/Users/pursuer/.npm/grunt-contrib-uglify/0.7.0'
+51 error  { [Error: EACCES, mkdir '/Users/pursuer/.npm/grunt-contrib-uglify/0.7.0']
+51 error   errno: 3,
+51 error   code: 'EACCES',
+51 error   path: '/Users/pursuer/.npm/grunt-contrib-uglify/0.7.0',
+51 error   parent: 'mailexiu1' }
+52 error Please try running this command again as root/Administrator.
+53 error System Darwin 13.4.0
+54 error command "node" "/usr/local/bin/npm" "install" "grunt-contrib-uglify" "--save-dev"
+55 error cwd /Users/pursuer/project/mailexiu1
+56 error node -v v0.10.32
+57 error npm -v 1.4.28
+58 error path /Users/pursuer/.npm/grunt-contrib-uglify/0.7.0
+59 error code EACCES
+60 error errno 3
+61 error stack Error: EACCES, mkdir '/Users/pursuer/.npm/grunt-contrib-uglify/0.7.0'
+62 verbose exit [ 3, true ]

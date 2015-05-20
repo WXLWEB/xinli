@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+    <meta name="renderer" content="webkit">
+    <title>简约心理</title>
+      <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script>
+    <script src="../js/picturefill.min.js" async></script>
+</head>
+
+<body>
+<!--头部-->
+<div class="header">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container text-center">
+            <div class="col-xs-12  cont">
+                <button type="button" class="navbar-toggle navbar-right" data-target=".side-cont">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a class="floatleft" href="javascript:history.back(-1)"><span class="icon-uniE60C icon-back"></span></a>
+                <h3 style="display: inline;">我的视频</h3>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="content mt1em">
+    <div class="container">
+        <div class="publish">
+            <div class="row">
+                <div class="col-xs-12">
+                    <form role="form">
+                        <div class="form-group mt1em">
+                            <div class="input-group">
+                                <span class="input-group-addon">*文章标题:</span>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group mt1em">
+                            <div class="input-group">
+                                <span class="input-group-addon">*链接地址:</span>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="img-change clearfix mt2em">
+                            <p>图片(上传图片尺寸：270px*300px)</p>
+                            <div class="col-sm-7">
+                                <div class="imageBox">
+                                    <div class="thumbBox" style="width:270px;height: 300px;top:36%;left:42%"></div>
+                                    <div class="spinner" style="display: none">Loading...</div>x
+                                </div>
+
+                                <form class="action">
+                                    <div class="row mt2em">
+                                        <div class="col-xs-6 mt1em">
+                                            <div class="form-group">
+                                                <div class="fileUpload btn btn-basic">
+                                                    <span>上传图片</span>
+                                                    <input type="file" id="file" class="upload" />
+                                                </div>
+                                                <p class="help-block" style="display: none">请上传正确格式的图片</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 mt1em">
+                                            <input type="button" class="btn btn-borBnoPad" id="btnCrop" value="确认" style="float: right">
+                                            <input type="button" class="btn btn-borBnoPad mr1em"  id="btnZoomIn" value="+" style="float: right">
+                                            <input type="button" class="btn btn-borBnoPad mr1em"  id="btnZoomOut" value="-" style="float: right">
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="cropped"></div>
+                            </div>
+                            <div class="col-xs-12 text-right pb1em">
+                                <input class="btn-brown" type="submit" value="保存">
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="phoneNav">
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <tr>
+                    <td class="active">个人中心</td>
+                    <td>我的账户</td>
+                    <td>我的订单</td>
+                </tr>
+                <tr>
+                    <td>我的钱包</td>
+                    <td>我的购物车</td>
+                    <td>我的收藏</td>
+                </tr>
+                <tr>
+                    <td>我的点评</td>
+                    <td>系统消息</td>
+                    <td>我的购物车</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <a class="visible-xs" id="phoneNav-radius" href=".phoneNav">
+        <img src="../img/user/phone-Nav.png">
+    </a>
+    <div class="side-cont">
+        <div class="ui-panel-inner mt1em">
+            <div class="user_box">
+                <img src="../img/index/logo.jpg" alt="Logo color">
+                <div class="site_name">简单心理</div>
+                <div class="actions">
+                    <a href="../loginOrRegister.html">注册</a>
+                    <a href="../loginOrRegister.html">登录</a>
+                </div>
+            </div>
+            <div class="list-group">
+                <a class="list-group-item active" href="../findExpert.html">找专家<i class="fa fa-angle-right"></i></a>
+
+                <a class="list-group-item" href="../askQuestion.html">提问题<i class="fa fa-angle-right"></i></a>
+                <a class="list-group-item" href="../test.html">做测试<i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer mt1em">
+    <div class="container">
+        <div class="foo clearfix">
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <img src="../img/public/qrcode.png">
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p>电话:185 1145 2966</p>
+                    <p>热线: 010-59496562</p>
+                    <p>邮箱：postmaster@jianyuexinli.com</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p><a href="#">关于我们</a></p>
+                    <p><a href="#">联系我们</a></p>
+                    <a href="../help.html">帮助</a>
+                </div>
+                <h5 class="clearfloat text-center pt1em pb1em">版权所有:众寻心源企业管理咨询有限公司 京ICP备15020262</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.leanModal.min.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/cropbox.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        var options =
+        {
+            thumbBox: '.thumbBox',
+            spinner: '.spinner',
+            imgSrc: ''
+        }
+        var cropper = $('.imageBox').cropbox(options);
+        $('#file').on('change', function(){
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                options.imgSrc = e.target.result;
+                cropper = $('.imageBox').cropbox(options);
+            }
+            reader.readAsDataURL(this.files[0]);
+            this.files = [];
+        })
+        $('#btnCrop').on('click', function(){
+            var img = cropper.getDataURL();
+            $('.cropped').empty().append('<img src="'+img+'">');
+        })
+        $('#btnZoomIn').on('click', function(){
+            cropper.zoomIn();
+        })
+        $('#btnZoomOut').on('click', function(){
+            cropper.zoomOut();
+        })
+    });
+</script>
+</body>
+</html>

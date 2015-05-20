@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+    <meta name="renderer" content="webkit">
+    <title>简约心理</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="../img/title-logo/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../img/title-logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/icon.css" />
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="content-login">
+    <div class="container">
+        <div class="login-box">
+            <div class="login-logo">
+                <div class="row">
+                    <div class="col-md-12 cont text-center clearfix">
+                            <a class="iconBrand"  href="#">
+                                <i class="icon iconfont">&#xe605;</i>
+                                <span class="logotext">简约心理</span>
+                            </a>
+                    </div>
+                </div>
+            </div>
+            <fieldset>
+                <div class="login-title clearfix">
+                    <div data-toggle="buttons">
+                        <label class="btn btn-primary col-xs-6 active">
+                            <input type="radio" name="options" id="ordinaryUsers">普通用户
+                        </label>
+                        <label class="btn btn-primary col-xs-6">
+                            <input type="radio" name="options" id="expertUsers"> 我是咨询师
+                        </label>
+                    </div>
+                </div>
+                <form action="#" method="post" class="mt1em clearfix">
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                <input type="text" class="form-control required"  id="acount" name="acount"  placeholder="请输入手机号码">
+                            </div>
+                            <label id="acount_succeed" class="blank"></label>
+                            <span class="clear"></span>
+                            <label id="acount_error"></label>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                <input type="password" name="pwd" class="form-control required"  id="login_pwd" placeholder="请输入密码">
+                            </div>
+                            <label id="login_pwd_succeed" class="blank"></label>
+                            <label id="login_pwd_error"></label>
+                        </div>
+                        <div class="col-xs-12">
+                            <button type="submit" class="btn-gray" id="btn-login"><span class="glyphicon glyphicon-off"></span> 登录</button>
+                        </div>
+                        <div class="col-xs-6 mt1em link">
+                            <p class="text-center remove-margin"><span>忘记密码？</span><a href="javascript:void(0)" ><span>找回</span></a>
+                            </p>
+                        </div>
+                        <div class="col-xs-6 mt1em link">
+                            <p class="text-center remove-margin"><span>还没注册?</span> <a href="javascript:void(0)" id="register">注册</a>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+            <fieldset>
+                <div class="login-title clearfix">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-primary col-xs-6 active">
+                            <input type="radio" name="options">普通用户
+                        </label>
+                        <label class="btn btn-primary col-xs-6">
+                            <input type="radio" name="options"> 我是咨询师
+                        </label>
+                    </div>
+                </div>
+                <form action="#" method="post" class="clearfix mt1em">
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></span>
+                                <input type="text" id="mobile" name="mobile" class="form-control required" placeholder="请输入手机号码">
+                            </div>
+                            <label id="mobile_succeed" class="blank"></label>
+                            <span class="clear"></span>
+                            <label id="mobile_error"></label>
+                        </div>
+                    </div>
+                    <input type="checkbox" name="protocol" id="protocol" tabindex="9" /><label for="protocol">&nbsp;我已阅读并同意<a href="#">《使用条款和隐私政策》</a></label>
+                </form>
+                <div class="col-xs-12 pb1em">
+                    <input type="button" name="next" class="btn btn-gray next" id="registsubmit" value="下一步" />
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <div class="text-left cont border-bottom previous">
+                    <span class="icon-uniE60C icon-prev"></span>
+                </div>
+                <form action="#" method="post" class="clearfix mt1em">
+                    <p>我们已给您的手机号码18010028310发送一条验证短信。</p>
+                    <div class="form-group">
+                        <div class="col-xs-12 clearfix">
+                            <div class="input-group message">
+                                <input type="text" id="authcode" name="authcode" class="form-control required" placeholder="请输入短信验证号"/>
+                            </div>
+                            <div class="input-group resetmessage">
+                                <input type="submit" name="text" id="btn-message" class="btn btn-message" value="免费获取验证码"/>
+                            </div>
+                            <label id="authcode_succeed" class="blank invisible"></label>
+                            <span class="clear"></span>
+                            <label id="authcode_error"></label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 pb1em">
+                        <input type="button" name="next" class="btn btn-gray next " value="下一步" />
+                    </div>
+                </form>
+            </fieldset>
+            <fieldset>
+                <div class="text-left cont border-bottom previous">
+                    <span class="icon-uniE60C icon-prev"></span>
+                </div>
+                <form  method="post" class="clearfix mt1em">
+                    <p>注册成功,请输入登录密码!</p>
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                <input type="text" name="username" class="form-control required"  id="username" placeholder="昵称">
+                            </div>
+                            <label id="username_succeed" class="blank"></label>
+                            <span class="clear"></span>
+                            <label id="username_error"></label>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                <input type="password" name="pwd" class="form-control required"  id="pwd" placeholder="请输入密码">
+                            </div>
+                            <label class="hide" id="pwdstrength"><span class="fl">安全程度:</span><b></b></label>
+                            <label id="pwd_succeed" class="blank"></label>
+                            <label id="pwd_error"></label>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                <input type="password" name="cpass" class="form-control required" id="cpass" placeholder="请确认密码">
+                            </div>
+                            <label id="pwd2_succeed" class="blank"></label>
+                            <span class="clear"></span>
+                            <label id="pwd2_error"></label>
+                        </div>
+                        <div class="col-xs-12 pb1em">
+                            <input type="button" name="next" class="btn btn-gray" value="完成" />
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var wait=60;
+    function time(o) {
+        if (wait == 0) {
+            o.removeAttribute("disabled");
+            o.value="免费获取验证码";
+            wait = 60;
+        } else { // www.jbxue.com
+            o.setAttribute("disabled", true);
+            o.value="重新发送(" + wait + ")";
+            wait--;
+            setTimeout(function() {
+                        time(o)
+                    },
+                    1000)
+        }
+    }
+    document.getElementById("btn-message").onclick=function(){time(this);}
+</script>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+    <meta name="renderer" content="webkit">
+    <title>简约心理</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/icon.css">
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script>
+    <script src="../js/picturefill.min.js" async></script>
+</head>
+
+<body>
+<!--头部-->
+<div class="header">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="col-xs-12 cont">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand mt1em" href="#">
+                        <i class="icon iconfont">&#xe605;</i>
+                        <span class="logotext">简约心理</span>
+                    </a>
+                </div>
+                <div class="navbar-right mt1em">
+                    <span class="colorBrown">Admin</span>
+                    |<a href="login.html" class="colorBrown">退出</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="content clearfloat bgcolor-gray">
+    <div class="container">
+        <div class="user-cont mt1em">
+            <div class="row">
+                <div class="col-md-2 col-sm-3 hidden-xs">
+                    <div class="userCenter-slide">
+                        <div class="list-group">
+                            <a href="accountManage.html" class="list-group-item">账号管理</a>
+                            <a href="userManage.html" class="list-group-item">用户管理</a>
+                            <a href="testManage.html" class="list-group-item">测试管理</a>
+                            <a href="infoRelease.html" class="list-group-item">信息发布</a>
+                            <a href="accountManage.html" class="active list-group-item">咨询管理</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 col-sm-9 col-xs-12">
+                    <div class="userCenter">
+                        <div class="accout-box">
+                            <div class="col-xs-12 text-right">
+                                <form action="">
+                                    <div class="from-group">
+                                        <div class="input-group commission floatleft" id="percentage">
+                                            <span class="input-group-addon">平台提成比例:</span>
+                                            <select class="form-control">
+                                                <option selected>10%</option>
+                                                <option>12%</option>
+                                                <option>15%</option>
+                                                <option>18%</option>
+                                                <option>20%</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-group floatright">
+                                            <button  class="btn-brown">发工资</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <table class="table consult-table mt2em">
+                                <thead>
+                                <tr>
+                                    <th>时间</th>
+                                    <th>咨询者</th>
+                                    <th>交易金额(¥)</th>
+                                    <th>咨询金额(¥)</th>
+                                    <th>状态</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr><td class="day" colspan="7">李四（2015年5月1号）</td></tr>
+                                <tr>
+                                    <td>10:30-11:30</td>
+                                    <td><a href="">13381203120</a></td>
+                                    <td>600.00</td>
+                                    <td class="consult-price"></td>
+                                    <td>未发</td>
+                                </tr>
+                                <tr>
+                                    <td>12:30-13:30</td>
+                                    <td><a href="">13381203120</a></td>
+                                    <td>500.00</td>
+                                    <td class="consult-price"></td>
+                                    <td>未发</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <nav class="nav-page mt1em">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <ul id="page" class="pagination" data-page-size="20" data-btn-count="13">
+                                        <li>
+                                            <a href="javascript:void(0)" aria-label="Previous">
+                                                上一页
+                                            </a>
+                                        </li>
+                                        <li class="active"><a href="javascript:void(0)">1</a></li>
+                                        <li><a href="javascript:void(0)">2</a></li>
+                                        <li><a href="javascript:void(0)">3</a></li>
+                                        <li><a href="javascript:void(0)">4</a></li>
+                                        <li><a href="javascript:void(0)">5</a></li>
+                                        <li>
+                                            <a href="javascript:void(0)" aria-label="Next">
+                                                下一页
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.leanModal.min.js"></script>
+<script src="../js/index.js"></script>
+<script>
+</script>
+</body>
+</html>

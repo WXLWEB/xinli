@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+    <meta name="renderer" content="webkit">
+    <title>简约心理</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/icon.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script>
+    <script src="js/picturefill.min.js" async></script>
+</head>
+
+<body>
+<!--头部-->
+<div class="header">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container text-center">
+            <div class="col-xs-12  cont">
+                <button type="button" class="navbar-toggle navbar-right" data-target=".side-cont">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a class="floatleft" href="javascript:history.back(-1)"><span class="icon-uniE60C icon-back"></span></a>
+                <h3 style="display: inline;">订单</h3>
+
+            </div>
+
+        </div>
+    </nav>
+</div>
+<div class="content">
+    <div class="container">
+        <div class="payOrder mt1em">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="mt1em">
+                        <div class="intro-title">
+                            <span>恭喜预约成功!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 mt1em">
+                    <div class="countdown">
+                        <span id="clock">40:00</span>
+                    </div>
+                    <p class="text-center">亲,请在40分钟之内支付订单哦,不然订单会自动取消</p>
+                    <p class="text-center">预约咨询师:白云波</p>
+                    <p class="text-center">预约咨询师:白云波 预约时间:2015-05-01 10:00-10:30</p>
+                    <p class="text-center">资讯价格:¥600.00元</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="mt1em">
+                        <div class="intro-title">
+                            <span>选择支付方式</span>
+                        </div>
+                    </div>
+                    <ul class="nav nav-tabs mt1em">
+                        <li role="presentation" class="active"><a href="#payBao" role="tab" data-toggle="tab">支付宝通道</a></li>
+                        <li role="presentation"><a href="#savingScard" role="tab" data-toggle="tab">储蓄卡通道</a></li>
+                    </ul>
+                    <div id="payBao" class="tab-content">
+                        <div class="tab-pane fade in active" id="BuyWay">
+                            <div class="row">
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade  active" id="savingScard">
+                            <div class="row">
+                                <div class="col-xs-4 mt1em">
+                                    <input type="radio" name="yinlian" id="银联" checked>
+                                    <img id="yinlian"  src="img/public/yinlian.png">
+                                </div>
+                                <div class="col-xs-12 mt2em text-right">
+                                    <a href="javascript:void(0);" class="next btn-brown next">确定</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="side-cont">
+        <div class="ui-panel-inner mt1em">
+            <div class="user_box">
+                <div class="navbar-header">
+                    <a class="navbar-foot mt1em" href="#">
+                        <i class="icon iconfont">&#xe605;</i>
+                        <span class="logotext">简约心理</span>
+                    </a>
+                </div>
+                <div class="actions">
+                    <a href="loginOrRegister.html">注册</a>
+                    <a href="loginOrRegister.html">登录</a>
+                </div>
+            </div>
+            <div class="list-group">
+                <a class="list-group-item active" href="findExpert.html">找专家<i class="fa fa-angle-right"></i></a>
+                <a class="list-group-item" href="askQuestion.html">提问题<i class="fa fa-angle-right"></i></a>
+                <a class="list-group-item" href="test.html">做测试<i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer mt1em">
+    <div class="container">
+        <div class="foo clearfix">
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="img/public/qrcode.png" style="width: 100px;" >
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p>电话:185 1145 2966</p>
+                    <p>热线: 010-59496562</p>
+                    <p>邮箱：postmaster@jianyuexinli.com</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p><a href="#">关于我们</a></p>
+                    <p><a href="#">联系我们</a></p>
+                    <p><a href="help.html">帮助</a></p>
+                </div>
+                <h5 class="clearfloat text-center pt1em pb1em">版权所有:众寻心源企业管理咨询有限公司 京ICP备15020262</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.leanModal.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+    var normalelapse = 100;
+    var nextelapse = normalelapse;
+    var counter;
+    var startTime;
+    var start = "00:40:00:00";
+    var finish = "00:00:00:00";
+    var timer = null;
+    // 开始运行
+        counter = 0;
+// 初始化开始时间
+        startTime = new Date().valueOf();
+// nextelapse是定时时间, 初始时为100毫秒
+// 注意setInterval函数: 时间逝去nextelapse(毫秒)后, onTimer才开始执行
+        timer = window.setInterval("onTimer()", nextelapse);
+    // 停止运行
+    function stop() {
+        window.clearTimeout(timer);
+    }
+    window.onload = function() {
+    };
+    // 倒计时函数
+    function onTimer()
+    {
+        var hms = new String(start).split(":");
+        var ms = new Number(hms[3]);
+        var s = new Number(hms[2]);
+        var m = new Number(hms[1]);
+        var h = new Number(hms[0]);
+        ms -= 10;
+        if (ms < 0)
+        {
+            ms = 90;
+            s -= 1;
+            if (s < 0)
+            {
+                s = 59;
+                m -= 1;
+            }
+            if (m < 0)
+            {
+                m = 59;
+                h -= 1;
+            }
+        }
+        var ms = ms < 10 ? ("0" + ms) : ms;
+        var ss = s < 10 ? ("0" + s) : s;
+        var sm = m < 10 ? ("0" + m) : m;
+        var sh = h < 10 ? ("0" + h) : h;
+        start = sh + ":" + sm + ":" + ss + ":" + ms;
+        show = sm + ":" + ss;
+        clock.innerText = show;
+        // 清除上一次的定时器
+        window.clearInterval(timer);
+        // 自校验系统时间得到时间差, 并由此得到下次所启动的新定时器的时间nextelapse
+        // 启动新的定时器
+        timer = window.setInterval("onTimer()", nextelapse);
+    }
+</script>
+</body>
+</html>

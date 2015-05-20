@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+    <meta name="renderer" content="webkit">
+    <title>简约心理</title>
+      <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/icon.css">
+    <link href="../themes/default/css/ueditor.min.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script>
+    <script src="../js/picturefill.min.js" async></script>
+</head>
+
+<body>
+<!--头部-->
+<div class="header">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="col-xs-12 cont">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand mt1em" href="#">
+                        <i class="icon iconfont">&#xe605;</i>
+                        <span class="logotext">简约心理</span>
+                    </a>
+                </div>
+                <div class="navbar-right mt1em">
+                    <span class="colorBrown">Admin</span>
+                    |<a href="login.html" class="colorBrown">退出</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="content clearfloat bgcolor-gray">
+    <div class="container">
+        <div class="user-cont mt1em">
+            <div class="row">
+                <div class="col-md-2 col-sm-3 hidden-xs">
+                    <div class="userCenter-slide">
+                        <div class="list-group">
+                            <a href="accountManage.html" class="list-group-item">账号管理</a>
+                            <a href="userManage.html" class="list-group-item">用户管理</a>
+                            <a href="testManage.html" class="list-group-item">测试管理</a>
+                            <a href="infoRelease.html" class="list-group-item active">信息发布</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 col-sm-9 col-xs-12">
+                    <div class="userCenter">
+                        <div class="infoRelease">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <h4>信息发布</h4>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <a href="" class="btn-brown">发送</a>
+                                </div>
+                            </div>
+                            <div class="row pb1em">
+                                <div class="col-sm-4">
+                                    <label>发送对象:</label>
+                                    <select class="form-control">
+                                        <option>咨询师</option>
+                                        <option>会员</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <script id="editor" type="text/plain" style="height:500px;"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.leanModal.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/ueditor.all.min.js"> </script>
+<!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+<!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+<script type="text/javascript" charset="utf-8" src="../lang/zh-cn/zh-cn.js"></script>
+
+<script type="text/javascript">
+    //实例化编辑器
+    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+    var ue = UE.getEditor('editor');
+    </script>
+<script src="../js/index.js"></script>
+
+</body>
+</html>

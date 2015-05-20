@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?l5pcb7');
+	src:url('../fonts/icomoon.eot?#iefixl5pcb7') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?l5pcb7') format('woff'),
+		url('../fonts/icomoon.ttf?l5pcb7') format('truetype'),
+		url('../fonts/icomoon.svg?l5pcb7#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-qq:before {
+	content: "\e600";
+}
+
+.icon-phone2:before {
+	content: "\e601";
+}
+
+.icon-email:before {
+	content: "\e602";
+}
+
+.icon-uniE603:before {
+	content: "\e603";
+}
+
+.icon-uniE604:before {
+	content: "\e604";
+}
+
+.icon-uniE605:before {
+	content: "\e605";
+}
+
+.icon-uniE606:before {
+	content: "\e606";
+}
+
+.icon-uniE607:before {
+	content: "\e607";
+}
+
+.icon-uniE608:before {
+	content: "\e608";
+}
+
+.icon-uniE609:before {
+	content: "\e609";
+}
+
+.icon-uniE60A:before {
+	content: "\e60a";
+}
+
+.icon-uniE60B:before {
+	content: "\e60b";
+}
+
+.icon-uniE60C:before {
+	content: "\e60c";
+}
+
+.icon-uniE60D:before {
+	content: "\e60d";
+}
+
+.icon-uniE60E:before {
+	content: "\e60e";
+}
+
+.icon-uniE60F:before {
+	content: "\e60f";
+}
+
