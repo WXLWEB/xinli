@@ -241,6 +241,9 @@ label {
 .icon-coment:hover {
   font-size: 2em;
 }
+.btn {
+  z-index: 111!important;
+}
 .icon-prev {
   color: #788d2e;
   border: 3px solid #788d2e;
